@@ -1,1 +1,1 @@
-web: gunicorn -w 4 -k uvicorn.workers.UvicornWorker pythoncode:test
+web: source setup.sh && python test.py
