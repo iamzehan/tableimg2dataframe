@@ -7,7 +7,7 @@ from datetime import date
 #pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 
 #@hidden_cell
-pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
+# pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
 
 def sort_contours(cnts, method="left-to-right"):
     # initialize the reverse flag and sort index
